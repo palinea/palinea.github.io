@@ -1,0 +1,392 @@
+/* слайдер..*/
+.head-bg {
+    background-image: url(../images/double_img.png);
+    height: 650px;
+    background-size: cover;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start; 
+}
+
+.head-slider {
+    padding-left: 50px;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.label{
+    margin-left: 40px;
+}
+
+.label::before {
+    content: url(../images/control.png);
+    position: relative;
+    right:30px;
+    top:160px;
+}
+
+.label h1 {
+    font-size: 52px;
+    margin: 0;
+}
+
+.label p.subtitle {
+    font-size: 17px;
+    color: #515a63;
+    margin: 18px 0 15px 0;
+}
+
+.label p.description {
+    font-size: 15px;
+    color: #606974;   
+}
+
+.tag {
+    width: 300px;
+    min-height: 20px;
+    margin-top:45px;
+}
+
+.price-tag {
+    width: 35%;
+    float: left;
+    color: #49525d;
+}
+
+.buy-tag {
+    width: 65%;
+    float: right;
+}
+
+.buy-tag::before {
+    content: url(../images/cart_icon.png);
+    padding-right: 5px;
+}
+
+/* карта..*/
+
+.goods-header h3, .sales-header h3 {
+    margin: 120px 0 20px 0;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-description {
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.goods-cart {
+    height: 365px;
+    background: #fff;
+}
+
+.best-sales {
+    height: 160px;
+    background: #fff;
+}
+
+.best-sales img {
+    padding: 35px 30px;
+    max-width: 50%;
+}
+
+.goods-cart img {
+ margin: 29px 0 26px 0;   
+}
+
+.goods-cart .goods-name {
+    color: #49525d;
+    font-size: 18px;
+}
+
+.goods-cart .cost {
+    font-size: 18px;
+   margin: 24px 0;   
+}
+
+.goods-cart pre.sizes {  
+    margin:25px 0 27px 0;  
+}
+ 
+.goods-cart img.colors, .goods-cart img.icon {
+    margin: 0;
+}
+
+.goods-cart p.icon {
+    margin: 64px 72px 24px 72px;
+}
+
+.goods-cart img.icon {
+    padding:0  9px;
+}
+
+.goods-cart img.icon:hover {
+    cursor: pointer;
+}
+
+/* загрузка..*/
+
+.load {
+    height: 60px;
+    background: #fff;
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.load div {
+    line-height: 60px;
+}
+
+/* реклама..*/
+
+.adv {
+    min-height: 100px;
+    background: #fff;
+    border: 1px solid #edf0f1;
+}
+
+.adv .sale {
+    width: 24.4%;
+    float: left;
+}
+
+.adv .sale-img {
+    width: 80px;
+    height: 80px;
+    background: url(../images/sale_img.png);
+    margin: 10px auto;
+    text-align: center;
+    color: #fff;
+    padding-top: 22px;
+}
+
+.sale p {
+    margin: 0;
+    font-size: 18px;      
+}
+
+.sale p.italic {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.adv .slogan {
+    width: 39.2%;
+    float: left;
+    margin: 0 2%; 
+    position: relative;  
+}
+
+.adv .slogan::after {
+    content: url(../images/separate.png);
+    position: absolute;
+    top: 27px;
+    right: 10px;
+}
+
+.adv .slogan h3 {
+    font-size: 22px;
+    text-align: left;
+    margin: 0;
+    padding-top: 24px;
+}
+
+.slogan p {
+    font-size: 12px;
+    color: #5f6974;
+    margin: 10px 0;   
+}
+
+.adv .adv-price {
+    width: 24.4%;
+    float: left;
+    margin: 0 2%;
+    color: #e36f23;
+    font-size: 24px;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.adv .adv-price p {
+    margin: 22px 0;
+}
+
+.adv .adv-price p::before {
+    content: url(../images/cart_plus.png);
+    width: 22px;
+    height: 22px;
+    margin-right: 30px;
+}
+
+.advarea {
+    min-height: 102px;
+    background: #fff;
+    border: 1px solid #edf0f1;
+}
+
+.advarea .adv-title {
+    padding-top: 28px;  
+}
+
+.advarea .adv-title p{
+    font-size: 16px;
+    margin: 10px 0 5px 0;
+}
+
+.advarea .adv-size pre {
+    font-size: 12px;
+    margin: 0;
+    color: rgba(73,82,93, 0.2)
+}
+
+/* продажи..*/
+
+.best-sales-description {
+    width: 50%;
+    float: right;
+}
+
+.best-sales h4 {
+    font-family: Harmonia Sans Pro Cyr Bold;
+    font-size: 18px;
+    margin: 0;
+    padding-top: 35px;
+}
+
+span.stars img {
+    margin-top: 30px;
+    padding: 0;
+    text-align: left;
+}
+
+span.price {
+    font-family: Harmonia Sans Pro Cyr;
+    font-weight: 600;
+    position: relative;
+    bottom: 7px;
+    left: 25px;
+}
+
+ div.add-to {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    position: relative;
+    right: 7px;
+}
+
+div.add-to::before {
+    content: url(../images/cart_plus.png);
+    padding-right: 10px;
+}
+
+/*письма*/
+
+.letter {
+    min-height: 120px;
+    line-height: 120px;
+    background: #fff;
+    margin: 100px 0;
+}
+
+p.title, p.descr {
+    display: inline-block;
+}
+
+p.title {
+    margin-left: 30px;
+}
+
+p.descr {
+    margin-left: 15px;
+}
+
+.mail-text img {
+    margin-right: 10px;
+}
+
+button.join-us {
+    width: 100px;
+    height: 50px;
+    background: #e36f23;
+    border:none;
+    outline: none;
+    color:#fff;
+    cursor: pointer;
+} 
+
+
+@media screen and (max-width: 768px) {
+
+.head-bg {
+    max-height: 300px;
+}
+
+.label h1 {
+    font-size: 28px;
+}
+
+.goods-header h3, .sales-header h3 {
+    margin-top: 60px;
+}
+
+.load {
+    margin: 15px 0 25px 0;
+}
+
+.advarea .adv-title p{
+    font-size: 1.5rem;
+}
+
+.advarea .adv-size {
+    margin-bottom: 10px;  
+} 
+
+.advarea .adv-size pre {
+    font-size: 1.5rem;
+}
+
+.letter {
+    min-height: 80px;
+    line-height: 80px;
+    background: #fff;
+    margin: 80px 0;
+}
+   
+}
+
+/*650*/
+
+@media screen and (max-width: 650px) {
+
+    .goods-cart p.icon {
+        margin: 60px 22px 24px 22px;
+    }
+
+}

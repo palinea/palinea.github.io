@@ -1,0 +1,41 @@
+
+footer.site-footer {
+    background: #fff;
+    padding: 60px 0 44px 0;
+    font-size: 14px;
+    color: #3a424d;
+}
+
+.block-400 .shopy p.copyright {
+    margin-top: 20px;
+}
+
+ul.footer-nav {
+    padding-inline-start: 20px;
+    margin-top: -15px;
+}
+
+ul.footer-nav a {
+    color: #3a424d;
+    text-decoration: none;
+}
+
+ul.footer-nav a:hover, ul.footer-nav li:hover, ul.footer-nav li.active {
+    color:#e36f23;
+}
+
+ul.footer-nav li {
+    margin: 15px 0;
+}
+
+.payment p {
+    margin:0;
+    padding-top: 18px;
+}
+
+@media screen and (max-width: 768px) {
+
+footer.site-footer {
+        padding: 10px 0 20px 0;
+    }
+}

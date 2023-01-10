@@ -1,0 +1,150 @@
+
+.site-header {
+    background: #fff;
+}
+
+.header-line {
+    padding: 20px 0;
+    border-bottom: 1px solid #f5f5f6;
+}
+
+.header-underline {
+    border-bottom: 1px solid #f5f5f6;
+}
+
+.contacts-header {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.contacts-header p {
+    float: left;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.contacts-header a {
+    text-decoration: none;
+    color:#49525d;
+}
+
+.contacts-header p.e-mail::before {
+    content: url(../images/mail_icon.png);
+    margin-right: 5px;
+}
+
+.contacts-header p.tel::before {
+    content: url(../images/phone_icon.png);
+    margin-right: 5px;
+}
+
+.social {
+    width: 100px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin:10px 15px;
+    position: relative;  
+    right: 10px;  
+}
+
+.social img {
+    margin: 0 5px;
+}
+
+.header-underline {
+    background: #fff;   
+}
+
+.header-underline .block-800 nav ul {
+    margin-top: 35px;
+}
+
+.block-800 nav ul a {
+    color: #3a424d;
+    text-decoration: none;   
+}
+
+.block-800 nav li{
+    list-style:none;
+    float: left;
+    width: 83px;
+    margin: 0 5px;
+    text-align:center;
+}
+
+.block-800 nav ul {
+    padding-inline-start: 0px;
+}
+
+.header-underline .block-200 .user-icons {
+    margin-top: 30px;
+}
+
+.header-underline .block-200 img {
+    margin-top: 30px;
+}
+
+.block-200 .user-icons img {
+    margin: 0 12px;
+}
+
+.cart {
+    position: relative;
+}
+
+.user-icons a div.cart-count {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    background: #49525d;
+    font-size: 11px; 
+    text-decoration:none;
+    display: block;
+    position: absolute;
+    bottom: 24px;
+    left: 17px;   
+}
+
+.block-200 .user-icons span {
+    color:#fff;
+    position: relative;
+    right: 1px;
+}
+
+
+/*768*/
+
+@media screen and (max-width: 768px) {
+
+    .header-underline .block-200 img {
+        margin-top: 5px;
+    }
+
+    .header-underline .block-200 .user-icons {
+        margin-top: 5px;
+    }
+
+    .header-underline .block-800 nav ul {
+        margin-top: 5px;
+    }
+
+    .block-800 nav li{
+        margin: 0;
+    }
+}
+
+/*650*/
+
+@media screen and (max-width: 650px) {
+
+    .header-underline .user-icons {
+        display: none;
+    }
+
+    .header-underline div.block-800 {
+        margin: 0 auto;
+    }
+
+}
+
